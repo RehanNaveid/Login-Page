@@ -1,0 +1,98 @@
+body{
+    font-family: "roboto",sans-serif;
+    margin: 15px;
+    background: hsl(240 5.9% 90%);
+
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup{
+    width: 380px;
+    border: 2.5px solid ;
+    border-color: rgba(237, 234, 234, 0.86);
+    background: white;
+    padding-top: 20;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding-bottom: 30px;
+    margin-top: 5%;
+}
+
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+    font-family: Helvetica, sans-serif;
+    color: #00693E;
+}
+
+
+
+.textalign{
+    padding-left: 120px;
+}
+
+.button,.signupbutton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    width: 80%;
+    margin-bottom: 10px;
+    padding-left: 10%;
+}
+
+.loginbutton{
+    font-size: 15px;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    margin:auto 30px;
+    border-radius: 6px;
+    background-color: #00693E;
+    color: white;
+}
+
+.user{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: none;
+}
+
+input{
+    width:78%;
+    justify-content: space-between;
+    border-radius: 6px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    margin-bottom: 0px;
+}
+
+.pssd{
+    padding-top: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 0%;
+}
+
+.input-fields{
+    flex-direction: wrap;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+
